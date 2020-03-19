@@ -1,0 +1,59 @@
+#about-us {
+  height: 100vh;
+  width: 100vw;
+
+  .team-name {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 70px;
+    font-weight: 600px;
+    color: lightcoral;
+    letter-spacing: 2px;
+  }
+
+  .member {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+
+    .member-card {
+      display: inline-block;
+      border-radius: 30px;
+      height: 200px;
+      width: 200px;
+      margin: 30px;
+      padding: 30px;
+      background: $back-ground;
+      @include neumorphism;
+      text-align: center;
+
+      .member-img {
+        height: 57px;
+        width: 57px;
+        padding: 30px;
+        border: 1px solid none;
+        border-radius: 50%;
+        background: $back-ground;
+        @include neumorphism;
+      }
+
+      .member-name{
+          font-size: 24px;
+          font-weight: 500;
+          margin-top: 20px;
+          color: lightcoral;
+      }
+
+      .member-position{
+          font-size: 16px;
+          color: #818A89;
+          letter-spacing: 2.1px;
+          margin-top: 6px;
+      }
+    }
+  }
+}

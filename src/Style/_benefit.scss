@@ -1,0 +1,69 @@
+#benefit {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .benefit-header {
+    position: absolute;
+    top: 105%;
+    font-size: 70px;
+    font-weight: 600px;
+    color: lightcoral;
+    letter-spacing: 2px;
+  }
+
+  .benefit-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1800px;
+
+    .card {
+      border-radius: 30px;
+      height: 300px;
+      width: 220px;
+      margin: 20px;
+      padding: 40px 30px;
+      background: $back-ground;
+      @include neumorphism;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .card:hover {
+      @include inner-neumorphism;
+    }
+
+    .card-image {
+      display: block;
+      margin: auto;
+      height: 100px;
+      width: 100px;
+    }
+
+    .card-header {
+      font-size: 48px;
+      font-weight: 600;
+      color: lightcoral;
+      text-align: center;
+      margin: 20px 10px;
+      letter-spacing: 3px;
+    }
+
+    ul {
+      li {
+        font-size: 20px;
+        color: #818a89;
+        text-align: left;
+        width: auto;
+        margin-top: 10px;
+        margin-left: 30px;
+      }
+    }
+  }
+}
