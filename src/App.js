@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./Component/home";
 import Benefit from "./Component/benefit";
 import AboutUs from "./Component/aboutUs";
+import Footer from "./Component/footer";
 
 class App extends Component {
   state = {};
@@ -11,7 +12,8 @@ class App extends Component {
       <React.Fragment>
         <Home />
         <Benefit />
-        <AboutUs/>
+        <AboutUs />
+        <Footer />
       </React.Fragment>
     );
   }
