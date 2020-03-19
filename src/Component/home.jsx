@@ -15,10 +15,14 @@ class Home extends Component {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doluptates?
           fqfhiuewui Possimus accusantium debitis laudantium ea architecto.
         </div>
-        <a href="#" className="download">
-          Dowload now
+        <div>
+          <a href="#" className="download">
+            Dowload now
+          </a>
+        </div>
+        <a href="#benefit" className="scroll-down">
+          <FontAwesomeIcon icon={faChevronDown} />
         </a>
-        <a href="#benefit" className="scroll-down" ><FontAwesomeIcon icon={faChevronDown} /></a>
       </div>
     );
   }

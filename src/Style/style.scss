@@ -33,3 +33,77 @@ $back-ground: #f1f3f6;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: #f1f3f6;
 }
+
+@media (max-width: 1300px) {
+  .menu-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+
+    span{
+      width: 21px;
+      height: 2px;
+      margin: 1.8px 0;
+    }
+
+    .menu-content{
+      a{
+        font-size: 14px;
+        margin-right: 50px;
+
+      }
+    }
+  }
+
+  .switch-off.menu-icon {
+    width: 400px;
+  }
+
+  #home {
+    height: auto;
+    width: auto;
+
+    .gia-su {
+      display: inline-block;
+      margin-top: 200px;
+      top: 150%;
+      font-size: 550%;
+    }
+
+    .intro {
+      display: none;
+    }
+
+    .download {
+      margin: 80px 0 40vh 0;
+      box-shadow: 7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001,
+        inset 0px 0px 4px 0px #fff9, inset 0px 0px 4px 0px #0001,
+        inset 0px 0px 4px 0px #fff9, inset 0px 0px 4px 0px #0001;
+    }
+
+    .scroll-down {
+      display: none;
+    }
+  }
+
+  #benefit {
+    margin-top: 20px;
+    height: auto;
+    width: auto;
+  }
+
+  #about-us {
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    .member {
+      margin-top: auto;
+    }
+  }
+
+  #footer {
+    position: relative;
+    bottom: 0;
+  }
+}

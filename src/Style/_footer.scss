@@ -1,18 +1,19 @@
 #footer {
+  position: relative;
+  bottom: 0;
   height: 10vh;
+  width: 100vw;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
   text-align: center;
-  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
-    inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001,
-    inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
 
-    a{
-        font-size: 24px;
-        color: lightcoral;
-        padding: 15px;
-        border-right: 1px solid #818A89;
-        
-    }
+  a {
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    color: lightcoral;
+    padding: 15px;
+    @include neumorphism;
+  }
 }

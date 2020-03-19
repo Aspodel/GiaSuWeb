@@ -1,26 +1,27 @@
 #benefit {
-  height: 100vh;
+  height: auto;
   width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 5vh;
+  
 
   .benefit-header {
-    position: absolute;
-    top: 105%;
+    text-align: center;
     font-size: 70px;
     font-weight: 600px;
     color: lightcoral;
     letter-spacing: 2px;
+    margin-top: 20px;
   }
-
+  
   .benefit-content {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 1800px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
 
     .card {
       border-radius: 30px;
@@ -30,8 +31,7 @@
       padding: 40px 30px;
       background: $back-ground;
       @include neumorphism;
-      justify-content: center;
-      align-items: center;
+      display: inline-block;
       text-align: center;
     }
 
