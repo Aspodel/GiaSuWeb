@@ -16,5 +16,10 @@
     color: lightcoral;
     padding: 15px;
     @include neumorphism;
+
+    &:active {
+      box-shadow: inset 2px 2px 12px  #b7b9bb, inset -2px -2px 12px  #ffffff;
+      transition: box-shadow 0.5s linear;
+    }
   }
 }

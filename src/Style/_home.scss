@@ -34,7 +34,7 @@
       7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9,
       inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9,
       inset 0px 0px 0px 0px #0001;
-    transition: box-shadow 1.6s cubic-bezier(0.79, 0.21, 0.06, 0.81);
+    transition: box-shadow 0.2s cubic-bezier(0.79, 0.21, 0.06, 0.81);
     &:active {
       box-shadow: 0px 0px 0px 0px #fff9, 0px 0px 0px 0px #fff9,
         0px 0px 0px 0px #0001, 0px 0px 0px 0px #0001,
@@ -51,14 +51,14 @@
     font-size: 50px;
     color: #818a89;
     animation: up-down 1.5s linear infinite;
-    &::a{
+    &::a {
       transition: 2s linear;
     }
   }
 }
 
-@keyframes up-down{
-    50%{
-        top: 92%;
-    }
+@keyframes up-down {
+  50% {
+    top: 92%;
+  }
 }
