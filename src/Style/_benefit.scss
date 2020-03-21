@@ -32,9 +32,14 @@
       display: inline-block;
       text-align: center;
 
-      &:hover {
-        @include inner-neumorphism;
+      &:hover{
+        box-shadow: 0px 0px 0px 0px #fff9, 0px 0px 0px 0px #fff9,
+  0px 0px 0px 0px #0001, 0px 0px 0px 0px #0001, inset -5px -5px 10px 0px #fff9,
+  inset -4px -4px 4px 0px #fff9, inset 5px 5px 10px 0px #0003,
+  inset 4px 4px 4px 0px #0001;
       }
+
+
       .card-image {
         display: block;
         margin: auto;

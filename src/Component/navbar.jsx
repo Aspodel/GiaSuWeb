@@ -21,7 +21,7 @@ class NavBar extends Component {
               isOn ? "menu-content switch-on" : "menu-content switch-off"
             }
           >
-            <a href="#home">Home</a>
+            <a href="#">Home</a>
             <a href="#benefit">Benefit</a>
             <a href="#about-us">About us</a>
           </div>
