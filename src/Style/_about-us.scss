@@ -8,7 +8,7 @@
     margin-top: 20px;
     font-size: 70px;
     font-weight: 600px;
-    color: lightcoral;
+    @include text-color;
     letter-spacing: 2px;
   }
 
@@ -46,12 +46,12 @@
           font-size: 24px;
           font-weight: 500;
           margin-top: 20px;
-          color: lightcoral;
+          @include text-color;
       }
 
       .member-position{
           font-size: 16px;
-          color: #818A89;
+          color: $grey-text;
           letter-spacing: 2.1px;
           margin-top: 6px;
       }

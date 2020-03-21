@@ -6,7 +6,7 @@
   .gia-su {
     margin-top: 12%;
     font-size: 120px;
-    color: lightcoral;
+    @include text-color;
     text-transform: uppercase;
     letter-spacing: 10px;
   }
@@ -14,7 +14,7 @@
   .intro {
     display: inline-block;
     font-size: 20px;
-    color: #818a89;
+    color: $grey-text;
     justify-content: center;
     margin-top: 20px;
     width: 50%;
@@ -29,7 +29,7 @@
     font-size: 25px;
     font-weight: 500;
     background: $back-ground;
-    color: lightcoral;
+    @include text-color;
     box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
       7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9,
       inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9,

@@ -1,6 +1,13 @@
 $dark-color: rgba(163, 177, 198, 0.5);
 $light-color: rgba(255, 255, 255, 0.5);
 $back-ground: #f1f3f6;
+$grey-text: #818a89;
+
+@mixin text-color {
+  background-image: linear-gradient(to right, #2193b0, #37dbe0, #6dd5ed);
+  color: transparent;
+  background-clip: text;
+}
 
 @mixin neumorphism {
   box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
@@ -40,23 +47,22 @@ $back-ground: #f1f3f6;
     width: 40px;
     border-radius: 5px;
 
-    span{
+    span {
       width: 21px;
       height: 2px;
       margin: 1.8px 0;
     }
 
-    .menu-content{
-      a{
+    .menu-content {
+      a {
         font-size: 14px;
-        margin-right: 50px;
-
+        margin-right: 8vw;
       }
     }
   }
 
   .switch-off.menu-icon {
-    width: 400px;
+    width: 90%;
   }
 
   #home {
@@ -103,7 +109,28 @@ $back-ground: #f1f3f6;
   }
 
   #footer {
-    position: relative;
-    bottom: 0;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    .footer-left{
+      display: inline-block;
+    }
+
+    .footer-right {
+      text-align: center;
+
+      .content{
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        margin: auto;
+      }
+      display: inline-block;
+      .social-media {
+        display: none
+      }
+    }
   }
 }
