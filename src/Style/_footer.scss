@@ -7,7 +7,9 @@
   @include neumorphism;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 5fr 1fr;
   grid-column-gap: 30px;
+  grid-row-gap: 10px;
   align-items: center;
   text-align: center;
 
@@ -53,12 +55,14 @@
     margin-top: 10px;
     .header {
       font-size: 24px;
+      font-weight: 500;
       color: #6dd5ed;
     }
 
     .content {
       width: 80%;
       color: $grey-text;
+      margin-top: 15px;
     }
 
     .social-media {
@@ -83,5 +87,13 @@
           inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
       }
     }
+  }
+
+  .copyright{
+    grid-column: 1/3;
+    letter-spacing: 1.5px;
+    bottom: 0;
+    color: #6f7481;
+    margin-bottom: 1vh;
   }
 }

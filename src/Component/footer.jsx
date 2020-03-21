@@ -33,8 +33,12 @@ class Footer extends Component {
         </div>
 
         <div className="footer-right">
-          <div className="header" >About Us</div>
-          <div className="content">Lorem ipsum dolor sit amet, consect adipisicing elit. Illo enim maiores explicabo in eaque incidunt! Humhhem ipsum dolor, sit amet consectetur adipisicing elit. Enim, rerum.</div>
+          <div className="header">About Us</div>
+          <div className="content">
+            Lorem ipsum dolor sit amet, consect adipisicing elit. Illo enim
+            maiores explicabo in eaque incidunt! Humhhem ipsum dolor, sit amet
+            consectetur adipisicing elit. Enim, rerum.
+          </div>
           <div className="social-media">
             <a href="#">
               <FontAwesomeIcon icon={faFacebookSquare} />
@@ -46,6 +50,10 @@ class Footer extends Component {
               <FontAwesomeIcon icon={faDiscord} />
             </a>
           </div>
+        </div>
+
+        <div className="copyright">
+          &copy;2020 ToTechs. All rights reserved.
         </div>
       </div>
     );

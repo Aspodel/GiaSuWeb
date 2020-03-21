@@ -112,16 +112,16 @@ $grey-text: #818a89;
     padding: 15px;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 
-
-    .footer-left{
-      display: inline-block;
+    .footer-left {
+      margin: auto;
     }
 
     .footer-right {
       text-align: center;
 
-      .content{
+      .content {
         display: flex;
         justify-content: center;
         text-align: left;
@@ -129,8 +129,14 @@ $grey-text: #818a89;
       }
       display: inline-block;
       .social-media {
-        display: none
+        display: none;
       }
+    }
+
+    .copyright {
+      margin: auto;
+      margin-top: 2vh;
+      font-size: 14px;
     }
   }
 }
