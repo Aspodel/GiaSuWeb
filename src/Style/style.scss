@@ -22,6 +22,10 @@ $grey-text: #818a89;
     inset 4px 4px 5px 0px #0001;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @import "./home";
 @import "./navBar";
 @import "./benefit";
@@ -31,7 +35,6 @@ $grey-text: #818a89;
 ::-webkit-scrollbar {
   width: 0;
   height: 0;
-  scroll-behavior: smooth;
 }
 
 * {
@@ -127,9 +130,14 @@ $grey-text: #818a89;
         text-align: left;
         margin: auto;
       }
-      display: inline-block;
       .social-media {
-        display: none;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        margin: auto;
+        a {
+          margin: 2vh;
+        }
       }
     }
 

@@ -14,9 +14,9 @@ class Benefit extends Component {
             <img src={job} className="card-image" />
             <div className="card-header">Jobs</div>
             <ul>
-              <li>Lorem, ipsum dolor</li>
-              <li>Loremdw dolor</li>
-              <li>Lorem, ipsum </li>
+              <li>Partime Jobs</li>
+              <li>Professional Jobs</li>
+              <li>Upload Jobs</li>
             </ul>
           </div>
 
@@ -24,9 +24,9 @@ class Benefit extends Component {
             <img src={tutor} className="card-image" />
             <div className="card-header">Tutor</div>
             <ul>
-              <li>Lorem, ipsum dolor</li>
-              <li>Loremdw dolor</li>
-              <li>Lorem, ipsum </li>
+              <li>Become A Tutor</li>
+              <li>Find Tutor</li>
+              <li>Homework Help</li>
             </ul>
           </div>
 
@@ -34,9 +34,9 @@ class Benefit extends Component {
             <img src={market} className="card-image" />
             <div className="card-header">Market</div>
             <ul>
-              <li>Lorem, ipsum dolor</li>
-              <li>Loremdw dolor</li>
-              <li>Lorem, ipsum </li>
+              <li>Personal Sell</li>
+              <li>Online Store</li>
+              <li>Sale Events</li>
             </ul>
           </div>
 
@@ -44,9 +44,9 @@ class Benefit extends Component {
             <img src={meeting} className="card-image" />
             <div className="card-header">Meeting</div>
             <ul>
-              <li>Lorem, ipsum dolor</li>
-              <li>Loremdw dolor</li>
-              <li>Lorem, ipsum </li>
+              <li>Coffee Shop</li>
+              <li>Restaurant</li>
+              <li>Library</li>
             </ul>
           </div>
         </div>

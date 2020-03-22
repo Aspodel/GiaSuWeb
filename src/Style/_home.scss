@@ -15,10 +15,13 @@
     display: inline-block;
     font-size: 20px;
     color: $grey-text;
-    justify-content: center;
+    text-align: center;
+    // font-weight: 500;
+    line-height: 1.8;
     margin-top: 20px;
-    width: 50%;
+    width: 70%;
   }
+
   .download {
     display: inline-block;
     text-decoration: none;
@@ -62,3 +65,4 @@
     top: 92%;
   }
 }
+
