@@ -1,4 +1,4 @@
-#Gia Su Website
+# Gia Su Website
 
 ## Introduction
 
@@ -34,37 +34,37 @@ As a student, it's best for us to focus on studying and reduce heavy task works 
 
 Author: **ToTechs Team**
 
-#Jobs:
+# Jobs:
 
-\*Partime Jobs
+- Partime Jobs
 
-\*Professional Jobs
+- Professional Jobs
 
-\*Upload Jobs Request
+- Upload Jobs Request
 
-#Tutor:
+# Tutor:
 
-\*Become A Tutor
+- Become A Tutor
 
-\*Find Tutor
+- Find Tutor
 
-\*Homework Help
+- Homework Help
 
-#Market:
+# Market:
 
-\*Personal Sell
+- Personal Sell
 
-\*Online Store
+- Online Store
 
-\*Sale Events
+- Sale Events
 
-#Meeting:
+# Meeting:
 
-\*Coffee Shop
+- Coffee Shop
 
-\*Restaurant
+- Restaurant
 
-\*Library
+- Library
 
 ## Copyright
 
