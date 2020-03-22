@@ -15,7 +15,7 @@ class Home extends Component {
         <div className="intro">
           Welcome to our system. As a student, it's best for us to focus on
           studying and reduce heavy task works that time consuming. With our
-          system provide a rich social network for students. COME JOIN US !!!.
+          system provide a rich social network for students. COME JOIN US !!!
         </div>
 
         <div>
