@@ -24,20 +24,22 @@ class Footer extends Component {
           </div>
           <div>
             <FontAwesomeIcon className="icon" icon={faEnvelope} />
-            <p>Giasu@email.com</p>
+            <p>FutureWingsStrypper@outlook.com</p>
           </div>
           <div>
             <FontAwesomeIcon className="icon" icon={faPhone} />
-            <p>(+84) 123-456-789</p>
+            <p>(+84) 348-164-682</p>
           </div>
         </div>
 
         <div className="footer-right">
           <div className="header">About Us</div>
           <div className="content">
-            Lorem ipsum dolor sit amet, consect adipisicing elit. Illo enim
-            maiores explicabo in eaque incidunt! Humhhem ipsum dolor, sit amet
-            consectetur adipisicing elit. Enim, rerum.
+            We are from the ToTechs organization, our organization is all about
+            Engineering Research. We are not building a brand, but rather
+            Reputations and helping the social with our Engineering knowledges
+            Follow us and together we will build amazing stuffs for solving our
+            daily problems
           </div>
           <div className="social-media">
             <a href="#">
